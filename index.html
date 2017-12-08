@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Swiper demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="css/swiper.min.css">
+
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <!-- Swiper -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <!--第一屏开始-->
+      <div class="swiper-slide one">
+        <!--头部-->
+       <div class="top">
+         <img src="img/one.jpg" alt="">
+       </div>
+        <!--中间-->
+        <div class="center">
+          <img class="left" src="img/jiezhi.png" alt="">
+          <img class="right" src="img/womenjiehunla.png" alt="">
+        </div>
+        <!--底部-->
+       <div class="bottom">
+        <p>2017.12.05</p>
+       </div>
+      </div>
+      <!--第一屏结束-->
+
+      <!--第二屏开始-->
+      <div class="swiper-slide two">
+        <!--头部-->
+        <div class="top">
+          <img class="one" src="img/two_top.jpg" alt="">
+        </div>
+        <div class="center">
+          <img class="two" src="img/two_center.jpg" alt="">
+        </div>
+        <div class="bottom">
+          <img class="three" src="img/two_bottom.jpg" alt="">
+        </div>
+      </div>
+      <!--第二屏结束-->
+
+      <!--第三屏开始-->
+      <div class="swiper-slide three">
+        <div class="top">
+          <img src="img/1.png" alt="">
+        </div>
+        <div class="center">
+          <img src="img/2.png" alt="">
+        </div>
+      </div>
+      <!--第三屏结束-->
+
+      <div class="swiper-slide">Slide 4</div>
+      <div class="swiper-slide">Slide 5</div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+<!--音乐开始-->
+  <div id="music">
+    <img class="musicbg" src="img/music.gif" alt="">
+    <img class="musicImg" src="img/music_off.png" alt="">
+    <audio id="audio" src="img/bgmusic.mp3" autoplay loop="loop"></audio>
+  </div>
+  <!--音乐结束-->
+  <!-- Swiper JS -->
+  <script src="js/swiper.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
